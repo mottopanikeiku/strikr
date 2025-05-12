@@ -1,30 +1,93 @@
-# strikr
+# Strikr
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern web application built with Next.js 15, React 19, and TypeScript, featuring a sleek and responsive user interface powered by Tailwind CSS.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mottopanikeikus-projects/v0-strikr)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/unWnWWjp8oe)
+## 🚀 Features
 
-## Overview
+- Built with Next.js 15 and React 19
+- TypeScript for enhanced type safety
+- Tailwind CSS for modern, utility-first styling
+- ESLint for code quality
+- Turbopack for faster development experience
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠️ Tech Stack
 
-## Deployment
+- **Framework:** Next.js 15.2.4
+- **UI Library:** React 19
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Development:** Turbopack
+- **Linting:** ESLint
 
-Your project is live at:
+## 📦 Installation
 
-**[https://vercel.com/mottopanikeikus-projects/v0-strikr](https://vercel.com/mottopanikeikus-projects/v0-strikr)**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/strikr-x5.git
+cd strikr-x5
+```
 
-## Build your app
+2. Install dependencies:
+```bash
+npm install
+```
 
-Continue building your app on:
+## 🏃‍♂️ Development
 
-**[https://v0.dev/chat/projects/unWnWWjp8oe](https://v0.dev/chat/projects/unWnWWjp8oe)**
+Run the development server with Turbopack:
 
-## How It Works
+```bash
+npm run dev
+```
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 🏗️ Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm run start
+```
+
+## 🧪 Linting
+
+Run the linter to check for code quality issues:
+
+```bash
+npm run lint
+```
+
+## 📝 Project Structure
+
+```
+strikr-x5/
+├── app/                # Next.js app directory
+│   ├── page.tsx       # Main page component
+│   ├── layout.tsx     # Root layout
+│   └── globals.css    # Global styles
+├── public/            # Static assets
+├── package.json       # Project dependencies and scripts
+└── tsconfig.json      # TypeScript configuration
+```
+
+## 🔧 Configuration Files
+
+- `next.config.ts` - Next.js configuration
+- `tsconfig.json` - TypeScript configuration
+- `postcss.config.mjs` - PostCSS configuration for Tailwind
+- `eslint.config.mjs` - ESLint configuration
+
+## 📄 License
+
+This project is private and proprietary.
+
+## 🤝 Contributing
+
+This is a private project. Please contact the maintainers for contribution guidelines.
